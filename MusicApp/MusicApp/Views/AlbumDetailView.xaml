@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicApp.Views.AlbumDetailView">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Grid ColumnSpacing="10"
+                          RowSpacing="10">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="82"/>
+                    <RowDefinition Height="82"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="256"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Row="0"
+                               Grid.RowSpan="2"
+                               Grid.Column="0"
+                               Source="{Binding SelectedAlbum.ImgUrl}"
+                               Aspect="AspectFill"/>
+
+                <Label Text="{Binding SelectedAlbum.name}"
+                               Grid.Row="0"
+                               Grid.Column="1"/>
+                <Label Text="{Binding SelectedAlbum.artist}"
+                               Grid.Column="1"
+                               Grid.Row="1"/>
+
+
+            </Grid>
+
+            <CollectionView ItemsSource="{Binding tracks}"                            
+                            EmptyView="No items to display right now, sorry"
+                            >
+
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="10"
+                                       Orientation="Vertical"/>
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Grid ColumnSpacing="10"
+                          RowSpacing="10">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="42"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+
+
+                            <Label Text="{Binding name}"
+                               Grid.Row="0"
+                               Grid.Column="0"/>
+                            <Label Text="{Binding duration}"
+                               Grid.Column="1"
+                               Grid.Row="0"/>
+
+
+                        </Grid>
+
+                    </DataTemplate>
+
+                </CollectionView.ItemTemplate>
+
+
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

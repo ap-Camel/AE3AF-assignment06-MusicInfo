@@ -1,0 +1,16 @@
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\MusicApp.csprojAssemblyReference.cache
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\Views\AlbumListView.xaml.g.cs
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\MusicApp.AssemblyInfoInputs.cache
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\MusicApp.AssemblyInfo.cs
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\MusicApp.csproj.CoreCompileInputs.cache
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\bin\Debug\netstandard2.0\MusicApp.deps.json
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\bin\Debug\netstandard2.0\MusicApp.dll
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\bin\Debug\netstandard2.0\ref\MusicApp.dll
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\bin\Debug\netstandard2.0\MusicApp.pdb
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\MusicApp.dll
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\ref\MusicApp.dll
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\MusicApp.pdb
+C:\Users\Ayman\source\repos\MusicApp\MusicApp\MusicApp\obj\Debug\netstandard2.0\Views\AlbumDetailView.xaml.g.cs
